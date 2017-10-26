@@ -1,6 +1,12 @@
+ #!/bin/bash
+   # Author: Yang
+   # Last Edited: 26/10/2017
+
 #sshpass installation
 #ssh-keygen
 # creation of password,user,server csv file
+
+
 OLDIFS=$IFS
 IFS=","
 while read password user server 
